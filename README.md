@@ -13,8 +13,8 @@ playwright install chromium
 
 크롤링할 카테고리 URL과 출력 파일명을 아래 변수로 설정한 후 실행
 
-- 'BASE_CATEGORY_URL' = "https://www.producthunt.com/categories/payment-processors"
-- 'OUT_FILE' = Path("output.xlsx")
+- `BASE_CATEGORY_URL` = "https://www.producthunt.com/categories/payment-processors"
+- `OUT_FILE` = Path("output.xlsx")
 
 > 중요: Cloudflare 감지 시 브라우저 창에서 수동으로 체크박스를 해제
 
